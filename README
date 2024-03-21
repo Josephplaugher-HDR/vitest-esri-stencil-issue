@@ -1,1 +1,9 @@
 A simple app to demonstrate a bug using Vitest to test a react component involving the ESRI JS Sdk with ESM.
+
+After installing node packages and running the app, run "npm run test". You'll notice that several tests pass, but there are a couple that do not. Those tests involve components or functions for which ESRI MapView is a dependency. There are tests which use MapView that pass, but MapView is being mocked. This is acceptable if the component or function being tested does not contain any other components or functions that use MapView. I am not able to mock MapView in those instances.
+
+App.spec.tsx is a straight-forward example. It attempts to test the rendering of the main App.tsx component, but it fails because that compoent uses MapView.
+
+I attempted to use dependency injection as a work-around. I added a mocked MapView as a parameter rather than importing it directly inside the child components. However, the type often has to be specified for the parameter and you cannot dependency inject a type.
+
+The issue appears to be the Stencil npm package. It is a dependency of MapView, Measurement, and maybe others. It causes an error when these classes are imported via ESM.

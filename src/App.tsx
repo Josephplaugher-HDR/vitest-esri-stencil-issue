@@ -33,6 +33,7 @@ async function useMapBuilder(mapContainer: React.MutableRefObject<any>) {
         })
     }, [])
 }
+
 export default function App() {
     const mapContainer = useRef(null);
     useMapBuilder(mapContainer);
