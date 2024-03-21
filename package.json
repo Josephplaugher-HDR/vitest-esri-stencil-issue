@@ -1,0 +1,43 @@
+{
+  "name": "vitest-esri-stencil-issue",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "App to demonstrate an issue when using Vitest with ESRI and ESM.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npm i && vite",
+    "build": "tsc && vite build",
+    "build-dev": "tsc && vite build --mode development",
+    "preview": "vite preview --port 3000",
+    "lint": "tsc && eslint . --ext .ts,.tsx",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@arcgis/core": "^4.29",
+    "bootstrap": "^5.3.2",
+    "jsdom": "^24.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-test-renderer": "^18.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react": "4.2.1",
+    "@vitest/coverage-c8": "^0.33.0",
+    "esbuild": "0.19.9",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "mock-local-storage": "^1.1.24",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^5.3.3",
+    "vite": "5.0.9",
+    "vitest": "^0.30.1"
+  }
+}
