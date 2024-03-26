@@ -1,5 +1,5 @@
 import Expand from "@arcgis/core/widgets/Expand";
-import MapView from "@arcgis/core/views/MapView.js";
+import MapView from "@arcgis/core/views/MapView";
 
 export default function EsriMeasure(view: MapView, measureRef: any) {
     return new Expand({

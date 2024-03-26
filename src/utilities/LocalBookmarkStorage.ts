@@ -1,5 +1,5 @@
-import Bookmark from "@arcgis/core/webmap/Bookmark.js";
-import Extent from "@arcgis/core/geometry/Extent.js";
+import Bookmark from "@arcgis/core/webmap/Bookmark";
+import Extent from "@arcgis/core/geometry/Extent";
 
 interface ILocalStorageBookmark {
     name: string;

@@ -1,7 +1,7 @@
 import MapConfig from "../../../views/map-config";
 import LayerList from "@arcgis/core/widgets/LayerList";
 import Expand from "@arcgis/core/widgets/Expand";
-import MapView from "@arcgis/core/views/MapView.js";
+import MapView from "@arcgis/core/views/MapView";
 
 function setPanelContent(item: any) {
     const legend = item.legend.map((l: any, i: any) => (

@@ -1,6 +1,6 @@
 
 import { useEffect, useRef, useState } from "react";
-import esriConfig from "@arcgis/core/config.js";
+import esriConfig from "@arcgis/core/config";
 import EsriMap from "./maps/components/EsriMap";
 import EsriFeatureLayer from "./maps/components/EsriFeatureLayer";
 import MapConfig from "./map-config";

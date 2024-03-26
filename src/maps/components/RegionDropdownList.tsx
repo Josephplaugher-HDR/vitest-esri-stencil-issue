@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
-import MapView from "@arcgis/core/views/MapView.js";
+import MapView from "@arcgis/core/views/MapView";
 import { ESRI_VIEW_CENTER, ESRI_VIEW_ZOOM } from "../../utilities/Constants";
 import IRegionListItem from "../interfaces/Region.interface";
 import GoToFeature from "../../utilities/GoToFeature";
