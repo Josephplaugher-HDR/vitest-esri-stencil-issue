@@ -1,4 +1,4 @@
-import LabelClass from "@arcgis/core/layers/support/LabelClass.js";
+import LabelClass from "@arcgis/core/layers/support/LabelClass";
 
 export default function RegionLayerTitle() {
     return new LabelClass({

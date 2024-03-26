@@ -1,4 +1,4 @@
-import esriConfig from "@arcgis/core/config.js";
+import esriConfig from "@arcgis/core/config";
 import MapView from "@arcgis/core/views/MapView";
 import Compass from "@arcgis/core/widgets/Compass";
 import Home from "@arcgis/core/widgets/Home";
@@ -13,7 +13,7 @@ import EsriPrint from "../maps/components/widgets/EsriPrint";
 import EsriBookmark from "../maps/components/widgets/EsriBookmark";
 import EsriSketch from "../maps/components/widgets/EsriSketch";
 import SetPopups from "./SetPopups";
-import Map from "@arcgis/core/Map.js";
+import Map from "@arcgis/core/Map";
 import EsriMapView from "../maps/components/EsriMapView";
 import IMapParams from "../maps/interfaces/MapParams.interface";
 import ShareView from "../maps/components/widgets/ShareView";

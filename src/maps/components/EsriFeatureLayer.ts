@@ -1,4 +1,4 @@
-import FeatureLayer from "@arcgis/core/layers/FeatureLayer.js";
+import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 
 export default function EsriFeatureLayer(url: string, title: string) {
     return new FeatureLayer({

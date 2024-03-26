@@ -1,8 +1,8 @@
-import Bookmarks from "@arcgis/core/widgets/Bookmarks.js";
-import Expand from "@arcgis/core/widgets/Expand.js";
-import MapView from "@arcgis/core/views/MapView.js";
+import Bookmarks from "@arcgis/core/widgets/Bookmarks";
+import Expand from "@arcgis/core/widgets/Expand";
+import MapView from "@arcgis/core/views/MapView";
 import LocalBookmarkStorage from "../../../utilities/LocalBookmarkStorage";
-import BookmarksViewModel from "@arcgis/core/widgets/Bookmarks/BookmarksViewModel.js";
+import BookmarksViewModel from "@arcgis/core/widgets/Bookmarks/BookmarksViewModel";
 
 export default function EsriBookmark(view: MapView) {
     const localBookmarks = new LocalBookmarkStorage(localStorage);

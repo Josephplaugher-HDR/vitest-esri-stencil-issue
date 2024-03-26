@@ -1,5 +1,5 @@
 import Search from "@arcgis/core/widgets/Search";
-import MapView from "@arcgis/core/views/MapView.js";
+import MapView from "@arcgis/core/views/MapView";
 import Expand from "@arcgis/core/widgets/Expand";
 
 export default function EsriSearch(view: MapView) {
